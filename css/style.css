@@ -1,0 +1,54 @@
+/* Basic Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.header-area{
+    background-color: #264653;
+}
+.small-texts{
+    font-size: 14px;
+}
+.honda-cbr-heading{
+    font-weight:600 !important;
+}
+.honda-cbr-btn{
+    background-color: #E76F51;
+    color: white;
+    padding: 10px 30px !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+.honda-cbr-outline-btn{
+    border: 2px solid #E76F51;
+    color: #E76F51;
+    padding: 10px 30px !important;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.main-body{
+    background: #FFFFFF;
+    
+}
+.grey-image img:nth-child(odd){
+        filter: grayscale(100%);
+      }
+.star-icons,.orange-text{
+    color:#E76F51;
+}
+.client-name,.client-job{
+    font-weight: 600;
+}
+.social-icon i{
+    border: 1px solid black;
+    border-radius: 5%;
+}
+.extra-form{
+    background-color: #264653;
+    color: white;
+    border-radius: 10px;
+}
